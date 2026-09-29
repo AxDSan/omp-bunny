@@ -1,0 +1,3 @@
+[test]
+# Installs the node:crypto wrapper before any test file (or src/bunny.ts) imports randomUUID.
+preload = ["./test/setup.ts"]
