@@ -1,0 +1,7 @@
+node_modules/
+build/
+*.tmp
+.DS_Store
+# a hatched rabbit is personal state: it lives in the agent dir, never in this repo
+bunny.json
+__pycache__/
