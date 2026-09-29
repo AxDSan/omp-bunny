@@ -8,7 +8,8 @@
   "author": "Abdias J",
   "scripts": {
     "test": "bun test",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "assets": "bun tools/capture.ts && python3 tools/render_assets.py"
   },
   "devDependencies": {
     "@oh-my-pi/pi-coding-agent": "^18.4.4",
