@@ -156,13 +156,13 @@ A rabbit is two things with different lifetimes:
 
 ```mermaid
 flowchart LR
-    id["id<br/>(random UUID, saved at hatch)"] --> salt["id + &quot;bunny-2026-401&quot;"]
+    id["id<br/>(random UUID, saved at hatch)"] --> salt["id + salt string<br/>(bunny-2026-401)"]
     salt --> fnv["FNV-1a<br/>32-bit hash"]
     fnv --> seed["mulberry32<br/>seeded PRNG"]
     seed --> r1["rarity<br/>(0–100 roll vs weights)"]
     seed --> r2["eyes"]
     seed --> r3["hat<br/>(uncommon+ only)"]
-    seed --> r4["shiny<br/>(&lt; 1 %)"]
+    seed --> r4["shiny<br/>(1 % roll)"]
     seed --> r5["peak, dump,<br/>five stat rolls"]
     r5 --> peak["peak stat"]
     peak --> soul["personality + reaction lines"]
