@@ -5,6 +5,7 @@
 **A rabbit that lives above your prompt in [omp](https://www.npmjs.com/package/@oh-my-pi/pi-coding-agent).**<br>
 It hatches from an egg, blinks, flicks its ears, and judges your turns.
 
+[![ci](https://img.shields.io/github/actions/workflow/status/AxDSan/omp-bunny/ci.yml?branch=main&label=ci)](https://github.com/AxDSan/omp-bunny/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Bun 1.3+](https://img.shields.io/badge/bun-1.3%2B-f9f1e1?logo=bun&logoColor=black)](https://bun.sh)
 [![omp extension](https://img.shields.io/badge/omp-extension-8a63d2)](https://www.npmjs.com/package/@oh-my-pi/pi-coding-agent)
